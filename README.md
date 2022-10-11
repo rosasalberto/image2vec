@@ -1,5 +1,6 @@
 # image2vec
-Building applications on top of Image Embeddings. Recommendation Engine, Image similarity.
+Building applications on top of Image Embeddings. 
+Recommendation Engine, Image similarity.
 
 1) Recommendation engine Demo <br/>
 ![](imgs/product_recommender.PNG)
@@ -15,22 +16,15 @@ That's why created 2 demos: A recommendation engine, and a Image similarity sear
 Both demos are created using streamlit.
 
 #### Requirements
-The requirement packages are: numpy, scikit-learn, matplotlib, tensorflow, pillow, and streamlit.
-
-    $ pip install numpy
-    $ pip install scikit-learn
-    $ pip install matplotlib
-    $ pip install tensorflow
-    $ pip install pillow
-    $ pip install streamlit
-
+pip install -r requirements.txt
 ---
 ### Use
+- Download any dataset of images to use
 
 #### Change 'config.py'
-Download any dataset of images and change the 'DATABASE_PATH' variable from 'config.py' to your dataset path.
-Also, change the 'N_IMG' variable to the number of images you want to embed from your dataset.
-And set 'DO_KPCA' to True if you want to perform Kernel PCA dimensionality reduction on the last hidden layer from Inception V3 model.
+- Change the 'DATABASE_PATH' variable from 'config.py' to the path of your dataset of images.
+- Change the 'N_IMG' variable to the number of images you want to embed from your dataset.
+- Set 'DO_KPCA' to True if you want to perform Kernel PCA dimensionality reduction on the last hidden layer from Inception V3 model.
 
 #### Run '0_image2vec.py'
 ```bash

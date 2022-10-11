@@ -6,7 +6,7 @@ from sklearn.decomposition import KernelPCA
 import numpy as np
 from tqdm import tqdm
 
-from pickle import dump, load
+from pickle import dump
 
 # how to get filepaths from 1 folder
 filepaths = get_filepaths(DATABASE_PATH, n_img=N_IMG)
