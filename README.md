@@ -16,7 +16,9 @@ That's why created 2 demos: A recommendation engine, and a Image similarity sear
 Both demos are created using streamlit.
 
 #### Requirements
-pip install -r requirements.txt
+```bash
+$ pip install -r requirements.txt
+```
 ---
 ### Use
 - Download any dataset of images to use
